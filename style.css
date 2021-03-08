@@ -1,0 +1,150 @@
+/* header font style*/
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #001852, #afb1cf, #24272e);
+  font-family: Asap, sans-serif;
+  height: 100vh;
+}
+
+header {
+  background-color: white;
+
+  padding: 20px;
+}
+
+header > h1 {
+  color: black;
+
+  text-align: center;
+}
+
+.score-board {
+  border: 3px white solid;
+  width: 200px;
+  margin: 20px auto;
+  color: white;
+  font-size: 45px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 15px;
+  font-family: Asap, sans-serif;
+  position: relative;
+}
+
+.badge {
+  background-color: #914778;
+  font-size: 20px;
+}
+
+#comp-lable {
+  position: absolute;
+  top: 35%;
+  right: -20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#user-lable {
+  position: absolute;
+  top: 35%;
+  left: -20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.result > p {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.choices {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.choice {
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.choice > img {
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.choice > img:hover {
+  background-color: #914778;
+  transition: all 0.3s ease;
+  transform: scale(1.2);
+}
+
+.computer-choice {
+  text-align: center;
+  color: white;
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+}
+
+#action-message {
+  color: white;
+  background-color: #914778;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#action-message:hover {
+  transform: scale(1.1);
+}
+
+.green-glow {
+  border: 5px solid green;
+  box-shadow: 0 0 40px green;
+}
+
+.red-glow {
+  border: 5px solid rgb(177, 0, 0);
+  box-shadow: 0 0 40px red;
+}
+
+.gray-glow {
+  border: 5px solid rgb(66, 64, 64);
+  box-shadow: 0 0 40px rgb(73, 73, 73);
+}
+
+.computer-rock {
+  background-image: url("./images/rock.png");
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.computer-paper {
+  background-image: url("./images/paper.png");
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.computer-scisser {
+  background-image: url("./images/scissor.png");
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+
+}
